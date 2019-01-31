@@ -1,1 +1,18 @@
-Class Estudiante(Persona):
+from Persona import Persona
+
+class Estudiante(Persona):
+
+    list_coment = []
+    
+    def __init__(self, autodescripcion):
+        super().__init__()
+        self._autodescripcion
+
+    def getautodescripcion(self):
+        return(self._autodescripcion)
+
+    def setautodescripcion(self, autodescripcion):
+        self._autodescripcion = autodescripción
+
+    #def volverse_arrendatario(self):
+        
